@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
-
+<Hotels>
   <Hotel Rating="5">
     <Name>Sample Inn</Name>
     <Phone>602-555-0100</Phone>
     <Phone>602-555-0101</Phone>
     <Address NearestAirport="PHX">
-      <Number>123</Number>
-      <Street>Main St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85001</Zip>
+      <Number>123</Number><Street>Main St</Street><City>Phoenix</City><State>AZ</State><Zip>85001</Zip>
     </Address>
   </Hotel>
 
@@ -19,11 +13,7 @@
     <Name>Desert Breeze Hotel</Name>
     <Phone>480-222-1111</Phone>
     <Address NearestAirport="PHX">
-      <Number>456</Number>
-      <Street>Desert Rd</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
+      <Number>456</Number><Street>Desert Rd</Street><City>Tempe</City><State>AZ</State><Zip>85281</Zip>
     </Address>
   </Hotel>
 
@@ -31,11 +21,7 @@
     <Name>Valley View Motel</Name>
     <Phone>480-333-2222</Phone>
     <Address>
-      <Number>789</Number>
-      <Street>Sunset Blvd</Street>
-      <City>Mesa</City>
-      <State>AZ</State>
-      <Zip>85201</Zip>
+      <Number>789</Number><Street>Sunset Blvd</Street><City>Mesa</City><State>AZ</State><Zip>85201</Zip>
     </Address>
   </Hotel>
 
@@ -44,11 +30,7 @@
     <Phone>602-444-3333</Phone>
     <Phone>602-444-3334</Phone>
     <Address NearestAirport="PHX">
-      <Number>101</Number>
-      <Street>Central Ave</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
+      <Number>101</Number><Street>Central Ave</Street><City>Phoenix</City><State>AZ</State><Zip>85004</Zip>
     </Address>
   </Hotel>
 
@@ -56,11 +38,7 @@
     <Name>Skyline Resort</Name>
     <Phone>602-555-2222</Phone>
     <Address>
-      <Number>200</Number>
-      <Street>Cloud Dr</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85260</Zip>
+      <Number>200</Number><Street>Cloud Dr</Street><City>Scottsdale</City><State>AZ</State><Zip>85260</Zip>
     </Address>
   </Hotel>
 
@@ -68,11 +46,7 @@
     <Name>Mountain Lodge</Name>
     <Phone>928-777-4444</Phone>
     <Address>
-      <Number>18</Number>
-      <Street>Pine Rd</Street>
-      <City>Flagstaff</City>
-      <State>AZ</State>
-      <Zip>86001</Zip>
+      <Number>18</Number><Street>Pine Rd</Street><City>Flagstaff</City><State>AZ</State><Zip>86001</Zip>
     </Address>
   </Hotel>
 
@@ -80,11 +54,7 @@
     <Name>Oasis Stay</Name>
     <Phone>623-999-5555</Phone>
     <Address NearestAirport="PHX">
-      <Number>202</Number>
-      <Street>Oasis Blvd</Street>
-      <City>Glendale</City>
-      <State>AZ</State>
-      <Zip>85301</Zip>
+      <Number>202</Number><Street>Oasis Blvd</Street><City>Glendale</City><State>AZ</State><Zip>85301</Zip>
     </Address>
   </Hotel>
 
@@ -92,11 +62,7 @@
     <Name>Budget Inn</Name>
     <Phone>520-321-6789</Phone>
     <Address>
-      <Number>17</Number>
-      <Street>Main Rd</Street>
-      <City>Tucson</City>
-      <State>AZ</State>
-      <Zip>85705</Zip>
+      <Number>17</Number><Street>Main Rd</Street><City>Tucson</City><State>AZ</State><Zip>85705</Zip>
     </Address>
   </Hotel>
 
@@ -104,11 +70,7 @@
     <Name>Lakeside Hotel</Name>
     <Phone>928-543-2100</Phone>
     <Address NearestAirport="FLG">
-      <Number>98</Number>
-      <Street>Lakeview Way</Street>
-      <City>Prescott</City>
-      <State>AZ</State>
-      <Zip>86301</Zip>
+      <Number>98</Number><Street>Lakeview Way</Street><City>Prescott</City><State>AZ</State><Zip>86301</Zip>
     </Address>
   </Hotel>
 
@@ -116,11 +78,7 @@
     <Name>Grand Canyon Retreat</Name>
     <Phone>928-800-1000</Phone>
     <Address>
-      <Number>500</Number>
-      <Street>Rim Dr</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
+      <Number>500</Number><Street>Rim Dr</Street><City>Grand Canyon</City><State>AZ</State><Zip>86023</Zip>
     </Address>
   </Hotel>
 
@@ -129,12 +87,7 @@
     <Phone>928-700-8888</Phone>
     <Phone>928-700-8889</Phone>
     <Address>
-      <Number>600</Number>
-      <Street>River Rd</Street>
-      <City>Yuma</City>
-      <State>AZ</State>
-      <Zip>85364</Zip>
+      <Number>600</Number><Street>River Rd</Street><City>Yuma</City><State>AZ</State><Zip>85364</Zip>
     </Address>
   </Hotel>
-
 </Hotels>
