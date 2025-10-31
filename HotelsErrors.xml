@@ -1,1 +1,46 @@
-<!-- placeholder; invalid XML coming later -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 5 deliberate schema errors -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- ❌ 1. Root tag is Hotel (should be Hotels) -->
+  <Hotel>
+    <!-- ❌ 2. Missing required Rating attribute -->
+    <Name>Sample Inn</Name>
+    <!-- ❌ 3. No Phone elements at all -->
+    <Address NearestAirport="PHX">
+      <Number>123</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4">
+    <!-- ❌ 4. Two Name elements -->
+    <Name>Downtown Suites</Name>
+    <Name>Duplicate Name</Name>
+    <Phone>602-444-3333</Phone>
+    <Address>
+      <Number>101</Number>
+      <Street>Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3">
+    <Name>Broken Address Hotel</Name>
+    <Phone>480-333-2222</Phone>
+    <!-- ❌ 5. Missing closing tag for Address -->
+    <Address>
+      <Number>789</Number>
+      <Street>Sunset Blvd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
+
+  </Hotel>
+</Hotel>
