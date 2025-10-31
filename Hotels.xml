@@ -1,1 +1,16 @@
-<!-- placeholder; real XML coming next -->
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <Hotel Rating="4">
+    <Name>Sample Inn</Name>
+    <Phone>602-555-0100</Phone>
+    <Phone>602-555-0101</Phone>
+    <Address NearestAirport="PHX">
+      <Number>123</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    </Address>
+  </Hotel>
+</Hotels>
